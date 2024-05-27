@@ -1,0 +1,25 @@
+h1,h2,h3,h4,h5,h6,p,table,input{
+	font-family:Poppins !important;
+}
+.displaynum{
+	font-size:100px;
+	font-weight: 900;
+}
+.title{
+	font-size:50px;
+	font-weight: 900 !important;
+	text-transform: uppercase;
+}
+button:disabled {
+  cursor: not-allowed !important;
+  pointer-events: all !important;
+}
+.table-hover tr td a{
+	text-decoration: none;
+}
+#event-header h3, #event-header button{
+	display: inline;
+}
+#event-header button{
+	float: right;
+}
